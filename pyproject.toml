@@ -1,0 +1,24 @@
+[project]
+name = "django-tubokotu"
+version = "0.1.0"
+description = "Add a short description here"
+authors = [
+    { name = "isksss", email = "104404522+isksss@users.noreply.github.com" }
+]
+dependencies = [
+    "django==3.2",
+    "python-dotenv==0.19.2",
+    "Pillow==9.0.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+
+[tool.hatch.metadata]
+allow-direct-references = true
